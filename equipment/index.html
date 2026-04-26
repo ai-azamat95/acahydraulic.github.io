@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог ГНБ установок | ACA Hydraulic</title>
+  <meta name="description" content="Б/у и новые буровые установки ГНБ Goodeng, XCMG, JOVE в Казахстане. Инспекция в Китае, доставка, таможня, запуск." />
+  <meta property="og:title" content="Каталог ГНБ установок — ACA Hydraulic" />
+  <meta property="og:description" content="14 моделей буровых установок ГНБ в наличии. Б/у и новые." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://acahydraulic.com/equipment/" />
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,sans-serif;background:#0a0a0a;color:#fff;line-height:1.6}
+    .container{max-width:1200px;margin:0 auto;padding:0 20px}
+    header{background:rgba(10,10,10,.95);backdrop-filter:blur(10px);border-bottom:1px solid #222;position:sticky;top:0;z-index:100}
+    header .container{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .logo{font-size:20px;font-weight:800;color:#fff;text-decoration:none;letter-spacing:.5px}
+    .logo span{color:#f5a623}
+    nav a{color:#ccc;text-decoration:none;margin-left:28px;font-size:14px;text-transform:uppercase;letter-spacing:.5px;transition:color .2s}
+    nav a:hover{color:#f5a623}
+    .hero{text-align:center;padding:80px 20px 60px;background:linear-gradient(180deg,#111 0%,#0a0a0a 100%);border-bottom:1px solid #1a1a1a}
+    .hero h1{font-size:48px;font-weight:800;margin-bottom:16px;letter-spacing:-1px}
+    .hero h1 span{color:#f5a623}
+    .hero p{color:#aaa;font-size:18px;max-width:600px;margin:0 auto}
+    .badge{display:inline-block;background:rgba(245,166,35,.1);color:#f5a623;padding:6px 16px;border-radius:20px;font-size:12px;text-transform:uppercase;letter-spacing:1px;margin-bottom:20px;border:1px solid rgba(245,166,35,.2)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px;padding:60px 20px}
+    .card{background:#141414;border:1px solid #222;border-radius:12px;overflow:hidden;transition:transform .2s,border-color .2s}
+    .card:hover{transform:translateY(-4px);border-color:#f5a62355}
+    .card-img{aspect-ratio:4/3;background:#0a0a0a;position:relative;overflow:hidden;cursor:pointer}
+    .card-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+    .card:hover .card-img img{transform:scale(1.05)}
+    .card-img .count{position:absolute;top:12px;right:12px;background:rgba(0,0,0,.7);padding:4px 10px;border-radius:12px;font-size:12px;color:#fff}
+    .card-img .year{position:absolute;top:12px;left:12px;background:#f5a623;color:#000;padding:4px 10px;border-radius:12px;font-size:12px;font-weight:700}
+    .card-body{padding:24px}
+    .card-body h3{font-size:22px;margin-bottom:8px;font-weight:700}
+    .card-body p{color:#999;font-size:14px;margin-bottom:20px}
+    .btn{display:inline-block;background:#f5a623;color:#000;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:700;font-size:14px;transition:background .2s}
+    .btn:hover{background:#e09420}
+    .btn-outline{display:inline-block;border:1px solid #444;color:#ccc;padding:10px 20px;border-radius:8px;text-decoration:none;font-size:14px;margin-left:10px;transition:border-color .2s,color .2s}
+    .btn-outline:hover{border-color:#f5a623;color:#f5a623}
+    .modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.95);z-index:200;justify-content:center;align-items:center;padding:20px}
+    .modal.active{display:flex}
+    .modal img{max-width:90vw;max-height:85vh;object-fit:contain;border-radius:8px}
+    .modal-close{position:absolute;top:20px;right:20px;width:44px;height:44px;background:#222;border-radius:50%;border:none;color:#fff;font-size:24px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+    .modal-nav{position:absolute;top:50%;transform:translateY(-50%);width:50px;height:50px;background:#222;border-radius:50%;border:none;color:#fff;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+    .modal-prev{left:20px}
+    .modal-next{right:20px}
+    .modal-counter{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);background:#222;padding:8px 20px;border-radius:20px;font-size:14px}
+    footer{text-align:center;padding:40px 20px;border-top:1px solid #1a1a1a;color:#666;font-size:14px}
+    @media(max-width:640px){.hero h1{font-size:32px}.grid{grid-template-columns:1fr;padding:40px 16px}.card-body h3{font-size:18px}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"XCMG XZ320D","description":"Буровая установка ГНБ 320 кН, 2018 г.","brand":{"@type":"Brand","name":"XCMG"}}},
+      {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"XCMG XZ2200","description":"Буровая установка ГНБ 2200 кН, 2021 г.","brand":{"@type":"Brand","name":"XCMG"}}},
+      {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Goodeng GD360-L","description":"Буровая установка ГНБ 360 кН, 2020 г.","brand":{"@type":"Brand","name":"Goodeng"}}},
+      {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Goodeng GS800L","description":"Буровая установка ГНБ 800 кН","brand":{"@type":"Brand","name":"Goodeng"}}}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="/" class="logo">ACA <span>HYDRAULIC</span></a>
+      <nav>
+        <a href="/">Главная</a>
+        <a href="/catalog">Каталог</a>
+        <a href="/inspection">Инспекция</a>
+        <a href="/service">Сервис</a>
+        <a href="/contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="badge">В наличии и под заказ</div>
+    <h1>Каталог <span>ГНБ установок</span></h1>
+    <p>14 моделей буровых установок от ведущих производителей. Б/у и новые — с инспекцией в Китае, доставкой и запуском под ключ.</p>
+  </section>
+
+  <main class="container">
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <footer>
+    <p>ACA Hydraulic © 2025. Продажа и обслуживание ГНБ установок в Центральной Азии.</p>
+    <p style="margin-top:8px">Tel: +7 700 835 9330 | WhatsApp</p>
+  </footer>
+
+  <div class="modal" id="modal">
+    <button class="modal-close" onclick="closeModal()">×</button>
+    <button class="modal-nav modal-prev" onclick="prevImg()">‹</button>
+    <img id="modalImg" src="" alt="">
+    <button class="modal-nav modal-next" onclick="nextImg()">›</button>
+    <div class="modal-counter" id="counter">1 / 5</div>
+  </div>
+
+  <script>
+    const rigs=[
+      {name:"Goodeng GD320 DL",folder:"Goodeng GD320 DL",year:"",specs:"Тяговое усилие 32 т, диаметр труб 114–127 мм",photos:["6bb75501918115a5257663c566c0fc36.JPG","IMG_1133.jpg","IMG_1135.jpg","b9d0118570ecaed92b0740c80f07ba78.JPG","f143143832c81cc73419a4e1e5b183ef.JPG"]},
+      {name:"Goodeng GD360-L",folder:"Goodeng GD360-L 2020",year:"2020",specs:"Тяговое усилие 36 т, глубина до 450 м",photos:["18884b6996d8debad9bf68a684e82711.JPG","5ae6c413e39d21ca9d4087db11e00833.JPG","6abd596d1c08a5381da4067a3a74882b.JPG","91eaefe7f66cd016bf674f9916358ea9_Original.jpg","a70f31e2dd2642e7c144ef8cae5d9427.JPG","f248d224006c49f7f1f02870c1e05915.JPG","f53635e1339f9d1e9610fbcbab633588.JPG"]},
+      {name:"Goodeng GD500 L",folder:"Goodeng GD500 L 2023",year:"2023",specs:"Тяговое усилие 50 т, диаметр труб 127–168 мм",photos:[]},
+      {name:"Goodeng GS800L",folder:"Goodeng GS800L",year:"",specs:"Тяговое усилие 80 т, глубина до 1200 м",photos:["3baf279e89da2d2616cf0d21b698fa05_Original.jpg","66f215a4eef38713384a2a610c108458_Original.jpg","8d70d21eaec532403804a7064d0df5ee_Original.jpg","aa8f404a9b85d8d87dc9ee4cf004c446_Original.jpg","b41a4f5991386d293f2393502174820c_Original.jpg"]},
+      {name:"JOVE 200A",folder:"JOVE 200A",year:"",specs:"Тяговое усилие 20 т, компактный класс",photos:["0943f11bcd8c79939a44adce48f6f982.JPG","6d7d27fac21a6628d2b5f56972a65862.JPG","6fecf159c0b3e77a1fcc3234191bdeda.JPG","793371cffbd53d3f465066ce86b729a4.JPG","9b766cccfb20631d449651529465018e.JPG","c526595876a65df4a3e855c6692134f3.JPG"]},
+      {name:"XCMG XZ200",folder:"XCMG XZ200 2019",year:"2019",specs:"Тяговое усилие 20 т, диаметр труб 89–114 мм",photos:["1888.JPG","1889.JPG"]},
+      {name:"XCMG XZ2200",folder:"XCMG XZ2200 2021",year:"2021",specs:"Тяговое усилие 220 т, глубина до 2200 м",photos:["610.JPG","611.JPG","612.JPG","613 2.JPG","613.JPG","614.JPG","IMG_8144_Original.jpg","IMG_8151_Original.jpg","e669f1f3ae3d35b4c8e8bf1bb1ba0125_Original.jpg"]},
+      {name:"XCMG XZ320",folder:"XCMG XZ320 2018",year:"2018",specs:"Тяговое усилие 32 т, глубина до 320 м",photos:["371.JPG","375.JPG","378.JPG","379.JPG"]},
+      {name:"XCMG XZ320D",folder:"XCMG XZ320D 2018",year:"2018",specs:"Тяговое усилие 32 т, улучшенная комплектация",photos:["0ea31488a5a73bc87d104a42cce90c50.JPG","383.JPG","3c478b31d78e26477f85d40a456649e8.JPG","54299d21c977e3b91a9c9366f30bed14.JPG","62d021105917e2e21edb5fedb15733d2 2.JPG","62d021105917e2e21edb5fedb15733d2.JPG","785bf90322125fbaaa3de65b3a670907.JPG","85fd03c31ab8957de0f2fece075926fa.JPG","IMG_0703.JPG"]},
+      {name:"XCMG XZ360E",folder:"XCMG XZ360E 2018 ",year:"2018",specs:"Тяговое усилие 36 т, глубина до 400 м",photos:["IMG_8112_Original.jpg","IMG_8113_Original.jpg","IMG_8114_Original.jpg"]},
+      {name:"XCMG XZ360E",folder:"XCMG XZ360E 2019",year:"2019",specs:"Тяговое усилие 36 т, глубина до 400 м",photos:["97bd984974182eda04ff4d65bc284550_Original.jpg"]},
+      {name:"XCMG XZ360E",folder:"XCMG XZ360E 2020",year:"2020",specs:"Тяговое усилие 36 т, глубина до 400 м",photos:["382.JPG","384.JPG","385.JPG"]},
+      {name:"XCMG XZ360E",folder:"XCMG XZ360E 2020 1",year:"2020",specs:"Тяговое усилие 36 т, глубина до 400 м",photos:["01d2fe86796054d071fc2b9d509aec31.JPG","2c12a1f28e204097283d7d3cb9dc08b7.JPG","d4c63e07e3c35341b22e9570e5ab44ca_Original.jpg","d851f64b04a31504c2c3db5717df24b7.JPG"]},
+      {name:"XCMG XZ360E",folder:"XCMG XZ360E 2021",year:"2021",specs:"Тяговое усилие 36 т, глубина до 400 м",photos:["388.JPG","389.JPG","390.JPG"]}
+    ];
+
+    let currentRig=null,currentIdx=0;
+
+    function openModal(rigIdx,photoIdx){
+      currentRig=rigIdx;currentIdx=photoIdx;
+      const rig=rigs[rigIdx];
+      document.getElementById('modalImg').src='photos/'+rig.folder+'/'+rig.photos[photoIdx];
+      document.getElementById('counter').textContent=(photoIdx+1)+' / '+rig.photos.length;
+      document.getElementById('modal').classList.add('active');
+    }
+    function closeModal(){document.getElementById('modal').classList.remove('active')}
+    function prevImg(){const r=rigs[currentRig];currentIdx=(currentIdx-1+r.photos.length)%r.photos.length;openModal(currentRig,currentIdx)}
+    function nextImg(){const r=rigs[currentRig];currentIdx=(currentIdx+1)%r.photos.length;openModal(currentRig,currentIdx)}
+    document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();if(e.key==='ArrowLeft')prevImg();if(e.key==='ArrowRight')nextImg()});
+
+    const grid=document.getElementById('grid');
+    rigs.forEach((rig,i)=>{
+      const cover=rig.photos[0]?('photos/'+rig.folder+'/'+rig.photos[0]):'';
+      const html='<div class="card">'+
+        '<div class="card-img" onclick="'+(rig.photos.length?'openModal('+i+',0)':'')+'">'+
+          (cover?'<img src="'+cover+'" alt="'+rig.name+'" loading="lazy">':'<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#555;font-weight:700">'+rig.name+'</div>')+
+          (rig.photos.length?'<div class="count">'+rig.photos.length+' фото</div>':'')+
+          (rig.year?'<div class="year">'+rig.year+'</div>':'')+
+        '</div>'+
+        '<div class="card-body">'+
+          '<h3>'+rig.name+'</h3>'+
+          '<p>'+rig.specs+'</p>'+
+          '<a href="https://wa.me/77008359330" class="btn">Узнать цену</a>'+
+          (rig.photos.length>1?'<a href="#" class="btn-outline" onclick="openModal('+i+',0);return false;">Смотреть все</a>':'')+
+        '</div></div>';
+      grid.innerHTML+=html;
+    });
+  </script>
+</body>
+</html>
