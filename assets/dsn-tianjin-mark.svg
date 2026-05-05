@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">Tianjin DSN mark</title>
+  <defs>
+    <linearGradient id="red" x1="15" y1="16" x2="82" y2="82" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F46A5A"/>
+      <stop offset="1" stop-color="#8E1F1B"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="28" y1="26" x2="76" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6D36A"/>
+      <stop offset="1" stop-color="#A9873E"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="14" fill="#191919"/>
+  <path d="M19 24h23c22 0 35 11 35 24S64 72 42 72H19V24Z" fill="url(#red)"/>
+  <path d="M31 37h11c9 0 15 4 15 11s-6 11-15 11H31V37Z" fill="#191919"/>
+  <path d="M57 27h20L53 69H33l24-42Z" fill="url(#gold)"/>
+  <path d="M61 27h16L53 69H37l24-42Z" fill="#F4D36A" opacity=".42"/>
+</svg>

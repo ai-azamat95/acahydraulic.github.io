@@ -1,0 +1,49 @@
+.brand-nav-logo {
+  width: 174px;
+  height: 43px;
+  object-fit: contain;
+}
+
+.brand-footer-logo {
+  width: 176px;
+  height: 43px;
+  object-fit: contain;
+}
+
+.brand-chip-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex: 0 0 24px;
+}
+
+.brand-mini-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  flex: 0 0 32px;
+}
+
+.brand-card-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex: 0 0 48px;
+  border-radius: 8px;
+}
+
+.brand-card-logo-lg {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  flex: 0 0 64px;
+  border-radius: 8px;
+}
+
+@media (max-width: 640px) {
+  .brand-nav-logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
+}
