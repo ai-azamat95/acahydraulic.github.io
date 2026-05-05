@@ -1,7 +1,14 @@
-.brand-nav-logo {
-  width: 174px;
-  height: 43px;
+.brand-header-logo {
+  width: 172px;
+  height: auto;
+  max-width: none;
   object-fit: contain;
+  flex: 0 0 172px;
+}
+
+header a[data-brand-enhanced="true"] {
+  min-width: 172px;
+  flex-shrink: 0;
 }
 
 .brand-footer-logo {
@@ -41,9 +48,13 @@
 }
 
 @media (max-width: 640px) {
-  .brand-nav-logo {
-    width: 48px;
-    height: 48px;
-    object-fit: contain;
+  .brand-header-logo {
+    width: 56px;
+    flex-basis: 56px;
+    content: url("/assets/aca-hydraulic-mark.svg");
+  }
+
+  header a[data-brand-enhanced="true"] {
+    min-width: 56px;
   }
 }

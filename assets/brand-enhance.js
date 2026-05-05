@@ -1,6 +1,7 @@
 (() => {
   const assets = {
     acaMark: "/assets/aca-hydraulic-mark.svg",
+    acaHeaderLogo: "/assets/aca-hydraulic-header-logo.svg",
     acaLogo: "/assets/aca-hydraulic-site-logo.svg",
     dsnMark: "/assets/dsn-tianjin-mark.svg",
     dsnLogo: "/assets/dsn-tianjin-site-logo.svg",
@@ -50,7 +51,7 @@
     );
     if (!hasAca) return;
 
-    link.replaceChildren(makeImage(assets.acaLogo, "ACA Hydraulic", "brand-nav-logo"));
+    link.replaceChildren(makeImage(assets.acaHeaderLogo, "ACA Hydraulic", "brand-header-logo"));
     link.dataset.brandEnhanced = "true";
   };
 
