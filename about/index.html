@@ -30,5 +30,23 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      document.addEventListener("click", function(event) {
+        var link = event.target.closest && event.target.closest("a[href^=\"tel:\"]");
+
+        if (!link) {
+          return;
+        }
+
+        if (typeof gtag === "function") {
+          gtag("event", "acahydrauliccom_phone_click", {
+            event_category: "phone",
+            event_label: link.href,
+            link_url: link.href,
+            transport_type: "beacon"
+          });
+        }
+      }, true);
+    </script>
   </body>
 </html>
