@@ -47,6 +47,27 @@
           });
         }
       }, true);
+
+      document.addEventListener("submit", function(event) {
+        var form = event.target;
+
+        if (!form || form.tagName !== "FORM") {
+          return;
+        }
+
+        if (typeof form.checkValidity === "function" && !form.checkValidity()) {
+          return;
+        }
+
+        window.setTimeout(function() {
+          if (typeof gtag === "function") {
+            gtag("event", "acahydrauliccom_form_submit", {
+              event_category: "form",
+              transport_type: "beacon"
+            });
+          }
+        }, 0);
+      }, true);
     </script>
   </body>
 </html>
